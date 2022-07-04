@@ -7,7 +7,69 @@
     /* --main-font-weight : 400; */
     /* --main-line-height : 1.5; */
   }
-  
+  /* ? /////////////////////////////////////////////////////// */
+
+/* quicksand-regular - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/quicksand-v29-latin-regular.woff2') format('woff2'),
+       url('../fonts/quicksand-v29-latin-regular.woff') format('woff');
+}
+/* quicksand-500 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/quicksand-v29-latin-500.woff2') format('woff2'), 
+       url('../fonts/quicksand-v29-latin-500.woff') format('woff'); 
+}
+/* quicksand-600 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/quicksand-v29-latin-600.woff2') format('woff2'), 
+       url('../fonts/quicksand-v29-latin-600.woff') format('woff');
+}
+/* quicksand-700 - latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/quicksand-v29-latin-700.woff2') format('woff2'),
+       url('../fonts/quicksand-v29-latin-700.woff') format('woff'); 
+}
+/* ! /////////////////////////////////////////////////////////////////////*/
+
+/* old-standard-tt-regular - latin */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/old-standard-tt-v18-latin-regular.woff2') format('woff2'),
+       url('../fonts/old-standard-tt-v18-latin-regular.woff') format('woff');
+}
+/* old-standard-tt-700 - latin */
+@font-face {
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/old-standard-tt-v18-latin-700.woff2') format('woff2'), 
+       url('../fonts/old-standard-tt-v18-latin-700.woff') format('woff');
+}
+/* TODO: /////////////////////////////////////////////////////////////////////// */
+
+/* abril-fatface-regular - latin */
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/abril-fatface-v19-latin-regular.woff2') format('woff2'), 
+       url('../fonts/abril-fatface-v19-latin-regular.woff') format('woff'); 
+}
+
   /* GENERAL */
   *{
     box-sizing: border-box;
