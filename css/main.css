@@ -130,6 +130,53 @@
   .site-main{
     flex-grow: 1;
   }
+
+  .joxa-explore-collection{
+    padding-top: 187px;
+    padding-bottom: 207px;
+    background-image: url(../images/explore-collection-bg.svg);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 500px) calc(50% + 20px);
+  }
+  .joxa-explore-collection__box{
+    width: 584px;
+    margin-left: auto;
+  }
+  .joxa-explore-collection__theme{
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Abril Fatface';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 107.9%;
+    letter-spacing: 0.01em;
+    color: #5F6C37;
+  }
+  .joxa-explore-collection__text{
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #363D1E;
+  }
+  .joxa-explore-collection__link{
+    display: inline-block;
+    padding: 12px 30px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 97.9%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #5F6C37;
+    text-decoration: none;
+    border: 2px solid #5F6C37;
+    border-radius: 8px;
+  }
+
   
   
   
