@@ -1,16 +1,17 @@
 /* VARIABLES */
 
-:root{
-    --main-title-color : #5F6C37;
-    --main-text-color : #363D1E;
-    --main-nav-color : #424B25;
-    --main-btn-color : #EAA34D;
-    --main-bg-color : #FFFDF5;
-    --main-font-size : 16px;
-    --main-font-weight : 400;
-    
-  }
-  /* ? /////////////////////////////////////////////////////// */
+:root {
+  --main-title-color: #5F6C37;
+  --main-text-color: #363D1E;
+  --main-nav-color: #424B25;
+  --main-btn-color: #EAA34D;
+  --main-bg-color: #FFFDF5;
+  --main-font-size: 16px;
+  --main-font-weight: 400;
+
+}
+
+/* ? /////////////////////////////////////////////////////// */
 
 /* quicksand-regular - latin */
 @font-face {
@@ -18,32 +19,36 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/quicksand-v29-latin-regular.woff2') format('woff2'),
-       url('../fonts/quicksand-v29-latin-regular.woff') format('woff');
+    url('../fonts/quicksand-v29-latin-regular.woff') format('woff');
 }
+
 /* quicksand-500 - latin */
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 500;
-  src: url('../fonts/quicksand-v29-latin-500.woff2') format('woff2'), 
-       url('../fonts/quicksand-v29-latin-500.woff') format('woff'); 
+  src: url('../fonts/quicksand-v29-latin-500.woff2') format('woff2'),
+    url('../fonts/quicksand-v29-latin-500.woff') format('woff');
 }
+
 /* quicksand-600 - latin */
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 600;
-  src: url('../fonts/quicksand-v29-latin-600.woff2') format('woff2'), 
-       url('../fonts/quicksand-v29-latin-600.woff') format('woff');
+  src: url('../fonts/quicksand-v29-latin-600.woff2') format('woff2'),
+    url('../fonts/quicksand-v29-latin-600.woff') format('woff');
 }
+
 /* quicksand-700 - latin */
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 700;
   src: url('../fonts/quicksand-v29-latin-700.woff2') format('woff2'),
-       url('../fonts/quicksand-v29-latin-700.woff') format('woff'); 
+    url('../fonts/quicksand-v29-latin-700.woff') format('woff');
 }
+
 /* ! /////////////////////////////////////////////////////////////////////*/
 
 /* old-standard-tt-regular - latin */
@@ -52,16 +57,18 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/old-standard-tt-v18-latin-regular.woff2') format('woff2'),
-       url('../fonts/old-standard-tt-v18-latin-regular.woff') format('woff');
+    url('../fonts/old-standard-tt-v18-latin-regular.woff') format('woff');
 }
+
 /* old-standard-tt-700 - latin */
 @font-face {
   font-family: 'Old Standard TT';
   font-style: normal;
   font-weight: 700;
-  src: url('../fonts/old-standard-tt-v18-latin-700.woff2') format('woff2'), 
-       url('../fonts/old-standard-tt-v18-latin-700.woff') format('woff');
+  src: url('../fonts/old-standard-tt-v18-latin-700.woff2') format('woff2'),
+    url('../fonts/old-standard-tt-v18-latin-700.woff') format('woff');
 }
+
 /* TODO: /////////////////////////////////////////////////////////////////////// */
 
 /* abril-fatface-regular - latin */
@@ -69,67 +76,131 @@
   font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/abril-fatface-v19-latin-regular.woff2') format('woff2'), 
-       url('../fonts/abril-fatface-v19-latin-regular.woff') format('woff'); 
+  src: url('../fonts/abril-fatface-v19-latin-regular.woff2') format('woff2'),
+    url('../fonts/abril-fatface-v19-latin-regular.woff') format('woff');
 }
 
-  /* GENERAL */
-  *{
-    box-sizing: border-box;
-  }
-  html{
-    height: 100%;
-  }
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  a {
-    display: inline-block;
-    text-decoration: none;
-  }
-  img{
-    display: block;
-    height: auto;
-  }
-  
-  body{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: "Quicksand", "Arial", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-  }
+/* GENERAL */
+* {
+  box-sizing: border-box;
+}
 
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
-  
-  /* CONTAINER */
-  
-  .container{
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  /* STICKY-FOOTER */
-  .site-main{
-    flex-grow: 1;
-  }
-  
-  
-  
+html {
+  height: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* CONTAINER */
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* STICKY-FOOTER */
+.site-main {
+  flex-grow: 1;
+}
+
+/* Start Azb Under Hero Section */
+#azb-under-hero {
+  padding: 105px 0 99px 0;
+  background-image: url('../images/article-bg.svg');
+}
+
+.azb-under-hero-wrapper__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.azb-under-hero-wrapper__item {
+  width: 274px;
+  padding: 66px 36px 57px 36px;
+  background: #FFFDF5;
+  box-shadow: 2px 2px 5px #00000026;
+  border-radius: 0px 20px;
+  transition: transform .5s;
+}
+
+.azb-under-hero-wrapper__item:hover {
+  background-color: var(--main-title-color);
+  transform: translateY(-10px);
+}
+
+.azb-under-hero-wrapper__item::before {
+  content: '';
+  width: 102px;
+  height: 101px;
+  display: block;
+  margin: 0 auto 20px auto;
+  background-image: url('../images/essential-oil.svg');
+  background-repeat: no-repeat;
+}
+
+.azb-under-hero-wrapper__item:nth-child(2)::before{
+  background-image: url('../images/natural-cosmetics.svg');
+}
+.azb-under-hero-wrapper__item:nth-child(3)::before{
+  background-image: url('../images/difussers.svg');
+}
+.azb-under-hero-wrapper__item:nth-child(2)::before{
+  background-image: url('../images/aromatherapy.svg');
+}
+
+.azb-under-hero-wrapper__title {
+  margin: 0;
+  font-family: 'Old Standard TT';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  color: var(--main-title-color);
+  text-align: center;
+}
+
+.azb-under-hero-wrapper__item:hover .azb-under-hero-wrapper__title {
+  color: #fff;
+}
+
+/* End of Azb Under Hero Section */
