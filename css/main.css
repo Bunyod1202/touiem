@@ -178,13 +178,15 @@ body {
   background-repeat: no-repeat;
 }
 
-.azb-under-hero-wrapper__item:nth-child(2)::before{
+.azb-under-hero-wrapper__item:nth-child(2)::before {
   background-image: url('../images/natural-cosmetics.svg');
 }
-.azb-under-hero-wrapper__item:nth-child(3)::before{
+
+.azb-under-hero-wrapper__item:nth-child(3)::before {
   background-image: url('../images/difussers.svg');
 }
-.azb-under-hero-wrapper__item:nth-child(2)::before{
+
+.azb-under-hero-wrapper__item:nth-child(2)::before {
   background-image: url('../images/aromatherapy.svg');
 }
 
@@ -204,3 +206,53 @@ body {
 }
 
 /* End of Azb Under Hero Section */
+
+/* Start Azb Luxury Section */
+#azb-luxury {
+  background-image: url('../images/shop-section-background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.azb-luxury-part {
+  position: relative;
+}
+
+.azb-luxury-part__info {
+  width: 564px;
+  padding: 100px 0;
+}
+
+.azb-luxury-title {
+  margin: 0 0 32px 0;
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 119.4%;
+  letter-spacing: 0.01em;
+  color: var(--main-title-color);
+}
+
+.azb-luxury-part__link {
+  padding: 12px 90px;
+  font-weight: 700;
+  line-height: 97.9%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+  border: 2px solid var(--main-title-color);
+  border-radius: 8px;
+}
+
+.azb-luxury-part__link:hover {
+  color: #fff;
+  background: var(--main-title-color);
+}
+
+.azb-luxury-part__img {
+  position: absolute;
+  top: 0;
+  right: -209.9px;
+}
+
+/* End of Azb Luxury Section */
